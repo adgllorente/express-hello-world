@@ -6,7 +6,7 @@ var express = require('express'),
   PORT = process.env.OPENSHIFT_NODEJS_PORT || 8000;
 
 app.get('/', function (req, res) {
-  res.send('Hello World!');
+  res.send('Hello Walqa!');
 });
 
 app.listen(PORT, IP_ADDRESS, function () {
