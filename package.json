@@ -1,0 +1,22 @@
+{
+  "name": "express-hello-world",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adgllorente/express-hello-world.git"
+  },
+  "author": "Adrián Gómez Llorente",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adgllorente/express-hello-world/issues"
+  },
+  "homepage": "https://github.com/adgllorente/express-hello-world#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
