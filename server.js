@@ -5,9 +5,7 @@ var express = require('express'),
   IP_ADDRESS = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1',
   PORT = process.env.OPENSHIFT_NODEJS_PORT || 8000;
 
-app.get('/', function (req, res) {
-  res.send('Hello Walqa!');
-});
+app.use('/', express.static(__dirname + '/static'));
 
 app.listen(PORT, IP_ADDRESS, function () {
   console.log('Example app listening on port', PORT);
