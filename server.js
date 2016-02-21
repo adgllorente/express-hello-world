@@ -7,6 +7,6 @@ var express = require('express'),
 
 app.use('/', express.static(__dirname + '/static'));
 
-app.listen(PORT, IP_ADDRESS, function () {
+app.listen(PORT, function () {
   console.log('Example app listening on port', PORT);
 });
